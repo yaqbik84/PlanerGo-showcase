@@ -1,19 +1,14 @@
-# PlanerGo Showcase
+# PlanerGo
 
-Publiczna strona prezentacyjna aplikacji **PlanerGo**.
+Publiczna prezentacja aplikacji **PlanerGo** — rodzinnego planera z aplikacją Android i wspólnym kalendarzem.
 
-## Cel repozytorium
+**Strona projektu:** https://yaqbik84.github.io/PlanerGo-showcase/
 
-To repozytorium zawiera wyłącznie publiczną warstwę prezentacyjną projektu. Pełny kod źródłowy aplikacji Android i serwera pozostaje w prywatnym repozytorium.
+## O aplikacji
 
-## Produkt i rodzinna instancja
+PlanerGo łączy wspólny kalendarz rodziny, profile użytkowników, role, wydarzenia cykliczne i prywatne przypomnienia.
 
-- **PlanerGo** — oficjalna nazwa produktu.
-- Po zalogowaniu właściciel rodziny może ustawić nazwę rodzinną, dzięki czemu nagłówek może być wyświetlany w formie **Planer [nazwisko]**.
-
-Nazwa rodzinnej instancji jest konfigurowalna i nie zmienia nazwy produktu PlanerGo.
-
-## Najważniejsze funkcje
+Najważniejsze funkcje:
 
 - wspólny kalendarz rodziny,
 - osobne profile i role domowników,
@@ -23,35 +18,20 @@ Nazwa rodzinnej instancji jest konfigurowalna i nie zmienia nazwy produktu Plane
 - obsługa wydarzeń cyklicznych,
 - czytelny podział wydarzeń bieżących i zakończonych,
 - możliwość integracji z innymi aplikacjami w celu synchronizacji wybranych danych kalendarza, planów i pracy,
-- własna aplikacja Android zamiast skrótu przeglądarkowego.
+- własna aplikacja Android.
+
+## Nazwa rodzinna
+
+**PlanerGo** jest nazwą produktu. Po zalogowaniu właściciel rodziny może ustawić nazwę rodzinną, dzięki czemu nagłówek może być wyświetlany w formie **Planer [nazwisko]**.
 
 ## Integracja
 
 PlanerGo może być łączony z innymi aplikacjami i narzędziami, aby synchronizować wybrane informacje, np. terminy, plan dnia lub harmonogram pracy. Zakres przekazywanych danych zależy od konkretnej integracji i powinien być ograniczony do informacji potrzebnych do synchronizacji.
 
-## Dostęp i demo
+## Status i demo
 
-Bieżące wdrożenie działa w prywatnej sieci. Z tego powodu publiczne demo Appetize jest celowo wstrzymane.
-
-Demo zostanie rozważone po przeniesieniu PlanerGo na bezpieczny, publicznie dostępny serwer HTTPS.
-
-## GitHub Pages
-
-Planowany adres strony:
-
-```text
-https://yaqbik84.github.io/PlanerGo-showcase/
-```
+Bieżące wdrożenie działa w prywatnej sieci. Publiczne demo Appetize jest celowo wstrzymane do czasu migracji PlanerGo na bezpieczny, publicznie dostępny serwer HTTPS.
 
 ## Prywatność
 
-Publiczne repozytorium nie zawiera:
-
-- kodu źródłowego aplikacji ani serwera,
-- kluczy podpisujących,
-- haseł i tokenów,
-- produkcyjnej bazy danych,
-- prywatnej konfiguracji serwera,
-- danych członków rodziny,
-- prywatnych nazw rodzinnych ani innych danych osobowych,
-- adresów i identyfikatorów prywatnej infrastruktury.
+To repozytorium zawiera wyłącznie publiczną warstwę prezentacyjną. Nie publikuje kodu źródłowego aplikacji ani serwera, kluczy, tokenów, produkcyjnej bazy danych, prywatnej konfiguracji infrastruktury ani danych członków rodziny.
